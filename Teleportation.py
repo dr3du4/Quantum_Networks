@@ -1,27 +1,22 @@
 from qiskit import *
-
 from qiskit_aer import *
-# Quantum program setup
-
-
-
-
 
 # Creating registers
 
 q = QuantumRegister(3, 'q')
-c0 = ClassicalRegister(1, 'c0')
+c0 = ClassicalRegister(1, 'c0') #Alice
 c1 = ClassicalRegister(1, 'c1')
-c2 = ClassicalRegister(1, 'c2')
+c2 = ClassicalRegister(1, 'c2') #Bob
 
 # Creates the quantum circuit
 teleport = QuantumCircuit(q, c0,c1,c2)
+print(teleport)
 
 # Make the shared entangled state
 teleport.h(q[1])
 # Bob checks the state of the teleported qubit
 teleport.measure(q[2], c2[0])
-
+print(teleport)
 # Shows gates of the circuit
 simulator = Aer.get_backend('qasm_simulator')
 
