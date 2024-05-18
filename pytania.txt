@@ -1,0 +1,51 @@
+Pytanie 1
+Co to jest Quantum Computing?
+
+a) Przetwarzanie informacji za pomocą klasycznych bitów.
+b) Przetwarzanie informacji za pomocą kubitów.
+c) Przetwarzanie informacji przy użyciu mechaniki kwantowej.
+d) Przetwarzanie informacji tylko w superkomputerach.
+
+Odpowiedź: b) Przetwarzanie informacji za pomocą kubitów.
+	c) Przetwarzanie informacji przy użyciu mechaniki kwantowej.	
+
+Pytanie 2
+Co to są Quantum Networks?
+
+a) Systemy komunikacyjne wykorzystujące zasady fizyki klasycznej.
+b) Systemy komunikacyjne wykorzystujące fale radiowe.
+c) Systemy komunikacyjne wykorzystujące zasady mechaniki kwantowej do przesyłania i przetwarzania informacji.
+d) Systemy komunikacyjne wykorzystujące światłowody do przesyłania danych.
+
+Odpowiedź: c) Systemy komunikacyjne wykorzystujące zasady mechaniki kwantowej do przesyłania i przetwarzania informacji.
+
+Pytanie 3
+Które protokoły są używane do Quantum Key Distribution (QKD)?
+
+a) HTTP
+b) E91
+c) BB84
+d) SMTP
+
+Odpowiedź: b) E91
+	c) BB84	
+
+Pytanie 4
+Co umożliwia Quantum Teleportation Protocol?
+
+a) Przesyłanie energii z jednego miejsca na drugie.
+b) Przesyłanie stanu kwantowego z jednego kubitu na drugi.
+c) Przesyłanie klasycznych danych przez sieć.
+d) Przesyłanie dźwięku przez kwantowe połączenie.
+
+Odpowiedź: b) Przesyłanie stanu kwantowego z jednego kubitu na drugi.
+
+Pytanie 5
+Ile qubitów potrzebujemy do zapisania 2137 bitów
+
+a) 4
+b) 15
+c) 32
+d) 18
+
+Odpowiedź: c) 15
