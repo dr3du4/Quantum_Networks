@@ -1,0 +1,35 @@
+Zadanie 1: Dodaj bramkę CNOT, aby zakończyć splątannie
+W teleportation.py stan splątany jest częściowo utworzony za pomocą bramki Hadamarda. Aby zakończyć splątanie między kubitami 1 i 2, dodaj bramkę CNOT.
+
+Instrukcje:
+
+Dodaj bramkę CNOT do obwodu kwantowego, gdzie kubit 1 jest control, a kubit 2 jest celem.
+Zweryfikuj obwód printem
+
+
+Zadanie 2: Przygotuj kubit 0 w stanie |+⟩
+Przed splątaniem kubitów 1 i 2, przygotuj kubit 0 w stanie ∣+⟩ (który jest (∣0⟩+∣1⟩)/ sqrt(2)) poprzez zastosowanie bramki Hadamarda.
+
+Instrukcje:
+
+Zastosuj bramkę Hadamarda do kubitu 0.
+Zweryfikuj obwód printem
+
+
+Zadanie 3: Zmierz kubity 0 i 1 i zapisz wyniki
+Zmierz kubity 0 i 1 (kubity Alice) i zapisz wyniki w rejestrach klasycznych c0 i c1, odpowiednio.
+
+Instrukcje:
+
+Dodaj operacje pomiarowe do kubitów 0 i 1.
+Zweryfikuj obwód printem.
+
+
+Zadanie 4: Zastosuj operacje warunkowe na kubicie 2
+Na podstawie wyników pomiarów zapisanych w bitach klasycznych c0 i c1, zastosuj bramki X i Z warunkowo do kubitu 2.
+
+Instrukcje:
+
+Zastosuj bramkę X do kubitu 2, jeśli c0 wynosi 1.
+Zastosuj bramkę Z do kubitu 2, jeśli c1 wynosi 1.
+Zweryfikuj obwód printem
